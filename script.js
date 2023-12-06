@@ -26,7 +26,7 @@ document.getElementById("CALCULATE").onclick = function(){
     document.getElementById("name").innerHTML = Fname;
 
     Pos = document.getElementById("Pos").value;
-    let showPos = document.getElementById("pos").innerHTML = Pos;
+    document.getElementById("pos").innerHTML = Pos;
 
     idnum = document.getElementById("idnum").value;
     idnum = Number(idnum);
@@ -35,7 +35,7 @@ document.getElementById("CALCULATE").onclick = function(){
 
     rpd = document.getElementById("RPD").value;
     rpd = Number(rpd);
-   document.getElementById("rpd").innerHTML = rpd;
+    document.getElementById("rpd").innerHTML = rpd;
 
     numberofdaywork = document.getElementById("NUMBEROFDAYWORK").value;
     numberofdaywork = Number(numberofdaywork);
@@ -44,6 +44,10 @@ document.getElementById("CALCULATE").onclick = function(){
     numberofdayworkot = document.getElementById("NUMBEROFDAYWORKOT").value;
     numberofdayworkot = Number(numberofdayworkot);
     document.getElementById("nodwOT").innerHTML =  numberofdayworkot;
+
+    otrate = document.getElementById("OTRATE").value;
+    otrate = Number(otrate);
+    document.getElementById("otr").innerHTML =  otrate;
 
     rph = rpd / 8;
 

@@ -161,14 +161,16 @@ span{
 
 }
 .home-title{
-    color: #009688;
+    color: rgb(196, 205, 43);
+    font-size: 50px;
     letter-spacing: 0.2rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 .paragraph{
-    font-size: 15px;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
     font-weight: 300;
-    color: rgb(247, 251, 249);
+    color: lightgray;
 }
 .btn-GoTo{
     margin: 40px;
@@ -305,6 +307,7 @@ span{
     /* list-style-type: none; */
     margin-bottom: 5px;
     margin-left: -20px;
+    font-size: 18px;
     
     
 }
